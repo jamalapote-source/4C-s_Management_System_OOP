@@ -1,6 +1,6 @@
 ﻿namespace _4C_s_Management_System
 {
-    partial class Form1
+    partial class FrontPage
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            SuspendLayout();
+            // 
+            // FrontPage
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Text = "Form1";
+            BackColor = Color.White;
+            ClientSize = new Size(1182, 713);
+            Name = "FrontPage";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "4C's Management System";
+            ResumeLayout(false);
         }
 
         #endregion
