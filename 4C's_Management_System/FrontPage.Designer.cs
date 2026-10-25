@@ -36,6 +36,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1182, 713);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "FrontPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "4C's Management System";

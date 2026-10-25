@@ -1,6 +1,6 @@
 ﻿namespace _4C_s_Management_System
 {
-    partial class RoomsManagement
+    partial class RoomsManagementForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "RoomsManagement";
+            SuspendLayout();
+            // 
+            // RoomsManagementForm
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1182, 713);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "RoomsManagementForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "4C's Management System";
+            ResumeLayout(false);
         }
 
         #endregion

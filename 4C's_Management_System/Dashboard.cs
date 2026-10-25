@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _4C_s_Management_System
 {
-    public partial class Dashboard : Form
+    public partial class DashboardForm : Form
     {
-        public Dashboard()
+        public DashboardForm()
         {
             InitializeComponent();
         }
