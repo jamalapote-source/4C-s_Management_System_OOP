@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _4C_s_Management_System
 {
-    public partial class RoomsManagement : Form
+    public partial class RoomsManagementForm : Form
     {
-        public RoomsManagement()
+        public RoomsManagementForm()
         {
             InitializeComponent();
         }
